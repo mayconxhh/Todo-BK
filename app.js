@@ -19,7 +19,7 @@ mongoose.connect(process.env.DB, (err) =>{
         console.log(err);
     }
 
-    console.log('Se conecto correctamente a la dase de datos SUCCESS');
+    console.log('Se conecto correctamente a la dase de datos');
 });
 
 app.use(logger('dev'));
