@@ -20,7 +20,6 @@ router.get('/tasks', (req, res, next) => {
         .status(200)
         .json({
           tasks: tasks,
-          saludito: "Tamos desde casita"
         })
     });
 });
